@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form HIMARPL</title>
+</head>
+
+<body>
+    <h2><img src="Logomark.png" width="70">Form Pendaftaran Himpunan Mahasiswa</h2>
+    <form>
+        <label for="nim">NIM:</label><br>
+        <input type="number" id="nim" name="nim"><br><br>
+
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+
+
+        <label for="prodi">Departemen/Badan pilihan:</label><br>
+        <select id="prodi" name="prodi">
+            <option value="---silahkan isi Prodi---">---silahkan pilih Salah Satu ---</option>
+            <option value="PSDO">PSDO</option>
+            <option value="Kominfo">Kominfo</option>
+            <option value="Advokasrtra">Advokasrtra</option>
+            <option value="Pengembangan Diri">Pengembangan Diri</option>
+            <option value="Pengabdian">Pengabdian</option>
+            <option value="Ekraf">Ekraf</option>
+            <option value="Administrasi">Administrasi</option>
+            <option value="Keuangan">Keuangan</option>
+            <option value="Baleg">Baleg</option>
+            <option value="Burta">Burta</option>
+            <option value="Komisi">Komisi</option>
+            
+        </select><br><br>
+        <label for="jenis_kelamin">Jenis Kelamin:</label><br>
+        <input type="radio" id="laki_laki" name="jenis_kelamin" value="Laki-laki">
+        <label for="laki_laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+        <label for="perempuan">Perempuan</label><br><br>
+
+
+        <label for="Alasan ">Alamat Memilih:</label><br>
+        <textarea id="alasan" name="alasan"></textarea><br><br>
+
+
+        <label for="agama">Agama:</label><br>
+        <select id="agama" name="agama">
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Katolik">Katolik</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Buddha">Buddha</option>
+            <option value="Konghucu">Konghucu</option>
+            <option value="Tidak ada">Tidak Ada</option>
+        </select><br><br>
+
+        <label for="Bersedia dip">Bersedia dipindahkan?</label><br>
+        <input type="checkbox" id="membaca" name="hobi" value="Membaca">
+        <label for="Ya">Ya</label>
+        <input type="checkbox" id="olahraga" name="hobi" value="Olahraga">
+        <label for="Tidak">Tidak</label>
+
+        <br> <br>
+        <label for="alamat">Alamat:</label><br>
+        <textarea id="alamat" name="alamat"></textarea><br><br>
+
+        <label for="file">File Kebutuhan:</label><br>
+        <input type="file" id="file" name="file"><br><br>
+
+        <input type="Submit" value="Submit">
+        <input type="Reset" value="Reset">
+
+    </form>
+    <br><b><b></b>
+    <a href="index.html" class="back-button">Kembali Ke halaman Utama</a>
+
+</body>
+
+</html>
